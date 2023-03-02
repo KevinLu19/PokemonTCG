@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pikachu.jpg</File>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/board.png</File>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/Charmander.png</File>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/pokemon_back_side.png</File>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/window_background.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
