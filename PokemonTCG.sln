@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTCG", "PokemonTCG\PokemonTCG.csproj", "{EB5F2F35-10B3-4D09-AEB0-1B350A8AD987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonTCG", "PokemonTCG\PokemonTCG.csproj", "{EB5F2F35-10B3-4D09-AEB0-1B350A8AD987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsPokemonTCG", "TestsPokemonTCG\TestsPokemonTCG.csproj", "{FD89F4F3-829F-4E43-847C-520C7D59BCD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EB5F2F35-10B3-4D09-AEB0-1B350A8AD987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB5F2F35-10B3-4D09-AEB0-1B350A8AD987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB5F2F35-10B3-4D09-AEB0-1B350A8AD987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD89F4F3-829F-4E43-847C-520C7D59BCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD89F4F3-829F-4E43-847C-520C7D59BCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD89F4F3-829F-4E43-847C-520C7D59BCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD89F4F3-829F-4E43-847C-520C7D59BCD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

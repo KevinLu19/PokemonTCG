@@ -4,14 +4,12 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pikachu.jpg</File>
     <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/board.png</File>
-    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/Charmander.png</File>
     <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/pokemon_back_side.png</File>
+    <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/Sprites/Pokemons/Electric/Pikachu.png</File>
     <File>C:/Users/Kevin/Desktop/Programming Project/CSharp/PokemonTCG/PokemonTCG/Content/Pokemon/window_background.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

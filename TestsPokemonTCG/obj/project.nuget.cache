@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "OAvKfeNKfOM/H0Dfzp/pQR3iYm3EzD4tw3fUwbmCiJ4x3H9Sfay3y/dDAhFNo5nDeTUqXBi+KVrx0w8X/0qdNg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Kevin\\Desktop\\Programming Project\\CSharp\\PokemonTCG\\TestsPokemonTCG\\TestsPokemonTCG.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project PokemonTCG is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project PokemonTCG supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "PokemonTCG",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

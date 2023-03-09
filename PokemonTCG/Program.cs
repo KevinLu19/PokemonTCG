@@ -1,3 +1,3 @@
 ﻿
-using var game = new PokemonTCG.Game1();
+using var game = new PokemonTCG.MonoGameLogic();
 game.Run();

@@ -37,6 +37,7 @@ C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\obj\Debu
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\obj\Debug\net6.0-windows\ref\PokemonTCG.dll
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pikachu.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\Charmander.xnb
+C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\Sprites\Pokemons\Electric\Pikachu.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\board.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\pokemon_back_side.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\window_background.xnb
