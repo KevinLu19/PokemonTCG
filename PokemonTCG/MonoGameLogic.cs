@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 
-using static PokemonTCG.Deck;
+using PokemonTCG.Graphics;
 
 namespace PokemonTCG
 {
@@ -15,9 +15,12 @@ namespace PokemonTCG
         // Board variables
         private Texture2D _pokemon_game_board, _window_background;
         private Texture2D _deck_of_cards;
-        private Texture2D _example_pokemon_card;
 
-        private Vector2 _example_pokemon_card_position = new Vector2(320, 42);
+        private Texture2D _example_pokemon_card;
+        private Texture2D _example_pokemon_2;
+
+        private Vector2 _example_pokemon_card_position = new Vector2(380, 130);
+        private Vector2 _example_2_position = new Vector2(370, 130);
         const int card_off_set = 55;
 
         private MouseState m_state;
@@ -44,6 +47,9 @@ namespace PokemonTCG
             _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
 
+            GameLogic game_logic_obj = new GameLogic();
+            //PokemonTCG.Deck deck_obj = new PokemonTCG.Deck();
+
             base.Initialize();
         }
 
@@ -55,6 +61,7 @@ namespace PokemonTCG
             _window_background = Content.Load<Texture2D>("Pokemon/window_background");
             _deck_of_cards = Content.Load<Texture2D>("Pokemon/pokemon_back_side");
             _example_pokemon_card = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Electric/Pikachu");
+            _example_pokemon_2 = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Fire/Charmander");
         }
 
         protected override void Update(GameTime gameTime)
@@ -82,6 +89,18 @@ namespace PokemonTCG
                 }
                
             }
+
+            float mouse_target_dist2 = Vector2.Distance(_example_pokemon_card_position, m_state.Position.ToVector2());
+
+            if (m_state.LeftButton == ButtonState.Pressed && m_state.X != _example_2_position.X)
+            {
+                if (mouse_target_dist2 < _example_pokemon_card_position.X)
+                {
+                    _example_pokemon_card_position.X = m_state.X;
+                    _example_pokemon_card_position.Y = m_state.Y;
+                }
+            }
+
             base.Update(gameTime);
         }
 
@@ -90,12 +109,19 @@ namespace PokemonTCG
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _spriteBatch.Begin();
+
+            Sprites card_sprite = new Sprites(_example_pokemon_card);
+            
+            // Static drawing where they wont change the outcome of the game.
             _spriteBatch.Draw(_window_background, new Vector2(0, 0), Color.White);
             _spriteBatch.Draw(_pokemon_game_board, new Vector2(320,42), Color.White);
             _spriteBatch.Draw(_deck_of_cards, new Vector2(1366, 800), _source_rectangle, Color.White, _rotation, _origin, .12f, _effects, _layer_depth);
 
             // Drawing playing pokemon cards.
-            _spriteBatch.Draw(_example_pokemon_card, new Vector2(_example_pokemon_card_position.X - card_off_set, _example_pokemon_card_position.Y - card_off_set), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
+            //_spriteBatch.Draw(_example_pokemon_card, new Vector2(_example_pokemon_card_position.X - card_off_set, _example_pokemon_card_position.Y - card_off_set), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
+            card_sprite.draw(_spriteBatch, new Vector2(555, 657));
+            
+            //_spriteBatch.Draw(_example_pokemon_2, new Vector2(0,0), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
 
             _spriteBatch.End();
 

@@ -41,3 +41,4 @@ C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debu
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\board.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\pokemon_back_side.xnb
 C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\window_background.xnb
+C:\Users\Kevin\Desktop\Programming Project\CSharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0-windows\Content\Pokemon\Sprites\Pokemons\Fire\Charmander.xnb

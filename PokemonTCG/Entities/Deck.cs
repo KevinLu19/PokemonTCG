@@ -20,7 +20,7 @@ enum EnergyType
     Grass, Fire, Water, Electric, Fighting, Psychic, Colorless, Dark, Steel, Dragon, Fairy
 }
 
-namespace PokemonTCG
+namespace PokemonTCG.Entities
 {
     // Can't have more than 3 of the same card in a deck.
     public class Deck
