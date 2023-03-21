@@ -5,19 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Trainers include item, Stadium, and Support cards.
 enum CardTypes
 {
-    Pokemon, Trainers, Energy, Stadium
+    Pokemon, Trainers, Energy
 }
 
-public enum TrainerType
+public enum TrainerTypes
 { 
     Item, Support, Stadium
 }
 
-enum EnergyType
+enum EnergyTypes
 {
     Grass, Fire, Water, Electric, Fighting, Psychic, Colorless, Dark, Steel, Dragon, Fairy
+}
+
+enum EnergyVersion
+{
+    Basic, Double
 }
 
 namespace PokemonTCG.Entities
@@ -37,7 +43,6 @@ namespace PokemonTCG.Entities
 
             for (int index = 0; index < MAX_DECK_SIZE; index++)
             {
-                
                 
                 pokemon_cards.Add(new Pokemon()
                 {
@@ -72,11 +77,11 @@ namespace PokemonTCG.Entities
         public int hp;
         
         private string pokemon_stage;               // Tells if the card is basic, stage 1, stage 2, etc.
-        private EnergyType pokemon_type;            // Electric, fire, water, etc.
+        private EnergyTypes pokemon_type;            // Electric, fire, water, etc.
         
         private List<String> move_set_name;         // Possibility of 1 or 2 moves in one card.
         public int move_damage;
-        private List<EnergyType> move_set_energy_cost;
+        private List<EnergyTypes> move_set_energy_cost;
 
         public Pokemon()
         {
@@ -87,7 +92,7 @@ namespace PokemonTCG.Entities
 
     public class Energy : Card
     {
-        private List<EnergyType> energy_type;               // Fire, water, Fighting, etc. to be used for moves.
+        private List<EnergyTypes> energy_type;               // Fire, water, Fighting, etc. to be used for moves.
         private int energy_count_value;                       // Each energy card default count to 1. Max count = 2;
         private string energy_card_name;                    // Default card will have no name. Double will have "double" in the name.
 
@@ -111,6 +116,6 @@ namespace PokemonTCG.Entities
     public class Trainer : Card
     {
         public string trainer_card_name;
-        public List<TrainerType>trainer_type;             // ITem, support, or stadium.
+        public List<TrainerTypes>trainer_type;             // ITem, support, or stadium.
     }
 }

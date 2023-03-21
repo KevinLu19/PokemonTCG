@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework.Input;
 using System;
 
 using PokemonTCG.Graphics;
+using System.Collections.Generic;
+using PokemonTCG.Entities;
 
 namespace PokemonTCG
 {
@@ -16,6 +18,9 @@ namespace PokemonTCG
         private Texture2D _pokemon_game_board, _window_background;
         private Texture2D _deck_of_cards;
 
+
+        // Pokemon Sprites
+        private List<Sprites> _active_pokemon;
         private Texture2D _example_pokemon_card;
         private Texture2D _example_pokemon_2;
 
@@ -23,9 +28,12 @@ namespace PokemonTCG
         private Vector2 _example_2_position = new Vector2(370, 130);
         const int card_off_set = 55;
 
-        private MouseState m_state;
+        private MouseState m_state, new_state;
 
-        // Draw function variables
+        // Deck Drawing
+        private Deck deck_obj;
+
+        // Draw sprite function variables
         private Nullable<Rectangle> _source_rectangle = null;
         private Single _rotation = 0;
         private Vector2 _origin = new Vector2(0,0);
@@ -60,8 +68,12 @@ namespace PokemonTCG
             _pokemon_game_board = Content.Load<Texture2D>("Pokemon/board");
             _window_background = Content.Load<Texture2D>("Pokemon/window_background");
             _deck_of_cards = Content.Load<Texture2D>("Pokemon/pokemon_back_side");
-            _example_pokemon_card = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Electric/Pikachu");
-            _example_pokemon_2 = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Fire/Charmander");
+
+            deck_obj = new Deck();
+
+            _example_pokemon_card = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Pikachu");
+            _example_pokemon_2 = Content.Load<Texture2D>("Pokemon/Sprites/Pokemons/Charmander");
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -101,6 +113,9 @@ namespace PokemonTCG
                 }
             }
 
+            
+            
+
             base.Update(gameTime);
         }
 
@@ -119,9 +134,11 @@ namespace PokemonTCG
 
             // Drawing playing pokemon cards.
             //_spriteBatch.Draw(_example_pokemon_card, new Vector2(_example_pokemon_card_position.X - card_off_set, _example_pokemon_card_position.Y - card_off_set), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
-            card_sprite.draw(_spriteBatch, new Vector2(555, 657));
             
-            //_spriteBatch.Draw(_example_pokemon_2, new Vector2(0,0), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
+            // Position 555, 800) is the position that is the left side bench of player 1 side of the board.
+            card_sprite.draw(_spriteBatch, new Vector2(555, 800));
+            
+            _spriteBatch.Draw(_example_pokemon_2, new Vector2(0,0), _source_rectangle, Color.White, _rotation, _origin, .5f, _effects, _layer_depth);
 
             _spriteBatch.End();
 
