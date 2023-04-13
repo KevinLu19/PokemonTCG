@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Drawing.Text;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,28 +30,22 @@ enum EnergyVersion
 
 namespace PokemonTCG.Entities
 {
-    // Can't have more than 3 of the same card in a deck.
+//    Deck related Rules:
+//- Cannot have 3 of the same card name type in the deck except for energy cards.
+//- Max card deck size is 42.
+//- Cannot have more than 4 ultra-rare cards.
     public class Deck
     {
         private static int MAX_DECK_SIZE = 42;
 
         private Pokemon _pokemon_obj;
 
-        private List<Pokemon> pokemon_cards { get; set; }
+        private List<Pokemon> pokemon_cards = new List<Pokemon>(new Pokemon[MAX_DECK_SIZE]);
 
+        // Create a deck and shuffle it for the user when generating a new game.
         public Deck()
         {
-            // Pokemon pokemon_cards = new Pokemon();
-
-            for (int index = 0; index < MAX_DECK_SIZE; index++)
-            {
-                
-                pokemon_cards.Add(new Pokemon()
-                {
-                    pokemon_name = "Pikachu",
-                    hp = 60,
-                });
-            }
+            shuffle();
         }
 
         // Shuffle using Fisher- Yates algorithm.
@@ -57,12 +53,26 @@ namespace PokemonTCG.Entities
         {
             Random rand = new Random();
 
+            int list_pokemon_size = pokemon_cards.Count;
+
+            // Fisher–Yates shuffle  Algorithm
+            for (int i = list_pokemon_size - 1; i < 0; i--)
+            {
+                // Pick a random next index range from 0 to i.
+                int random_next_index = rand.Next(0, i + 1);
+
+                // Swapping.
+                Pokemon temp_variable = pokemon_cards[i];
+                pokemon_cards[i] = pokemon_cards[random_next_index];
+                pokemon_cards[random_next_index] = temp_variable;
+            }
         }
 
-        // Drawing card form deck.
-        public string Draw(int count)
+        // Drawing card from deck.
+        public void Draw(int count)
         {
-            return "";
+            Pokemon first_card = pokemon_cards[0];
+
         }
     }
 

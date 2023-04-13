@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lv7J9Vsqt3tUGu3wY2Yjp/DR+KZL7toiAxSgbIyfaV3R37RC0flZwArFrLdG5eDxz2EZaSmhWCpp8XWis2w7Gg==",
+  "dgSpecHash": "wkCURxAtzGZu2YpFrWPA4NkbwajNYN9M9BspuCgF/+VUpST2Kxan1h1tZALbIdAjL5mUCyHuwmLIEwwcccP/Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin\\Desktop\\Programming Project\\CSharp\\PokemonTCG\\PokemonTCG\\PokemonTCG.csproj",
+  "projectFilePath": "C:\\Users\\Kevin\\Desktop\\ProgrammingProject\\csharp\\PokemonTCG\\PokemonTCG\\PokemonTCG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

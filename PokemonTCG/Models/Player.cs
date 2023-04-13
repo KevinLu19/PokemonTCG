@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
+﻿namespace PokemonTCG;
 public class Player
 {
     private int max_num_of_cards_first_turn = 7;
@@ -12,7 +6,7 @@ public class Player
 
     public Player()
     {
-
+       
     }
 
     public int get_num_of_prize_card()
