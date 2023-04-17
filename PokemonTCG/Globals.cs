@@ -1,10 +1,9 @@
 ﻿using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
-
 namespace PokemonTCG;
 
+// Globals used for storing data from the Game1.cs file.
 public class Globals
 {
-    public static SpriteBatch SpriteBatch { get; set; }
-    public static ContentManager ContentManager { get; set; }
+    public static SpriteBatch spriteBatch { get; set; }
+    public static ContentManager contentManager { get; set; }
 }
