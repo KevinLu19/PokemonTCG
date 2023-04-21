@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Big_Malasada.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Blastoise.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Charizard.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Charmander.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Charmeleon.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Crushing_Hammer.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Cynthia .png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Darkness.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Double_Colorless_Energy.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Electric.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Energy_Retrieval.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Energy_Switch.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Fairy.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Fighting.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Fire.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Grass.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Grovyle.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Guzma.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Lady.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Pikachu.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Pokemon_Catcher.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Professor_Willow.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Psychic.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Sceptile.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Squirtle.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Steel.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Switch.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Treecko.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Victory_Cup.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Wartortle.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Water.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Zorua.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
