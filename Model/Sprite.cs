@@ -10,25 +10,30 @@ public class Sprite
     public Vector2 position { get; set; }
 
     protected Vector2 origin;
-    protected Vector2 scale;
+    protected Single sprite_scale;
 
     protected Rectangle sprite_rectangle;
     protected Single rotation;
 
-
-    public Sprite(Texture2D text, Vector2 pos)
+    public Sprite(Texture2D text, Vector2 pos, Single scale)
     {
         texture = text;
         position = pos;
         origin = new(text.Width / 2, text.Height / 2);
-        scale = Vector2.One;
+        //scale = Vector2.One;
+        sprite_scale = scale;
+
         rotation = 0;
     }
 
+    public Sprite(Texture2D text)
+    {
+        texture = text;
+    }
 
     // virtual class to allow sub classes to build on top of this function.
     public virtual void Draw()
     {
-        Globals.spriteBatch.Draw(texture, position, null, Color.White, rotation, origin, 1, SpriteEffects.None, 1);
+        Globals.spriteBatch.Draw(texture, position, null, Color.White, rotation, origin, sprite_scale, SpriteEffects.None, 1);
     }
 }

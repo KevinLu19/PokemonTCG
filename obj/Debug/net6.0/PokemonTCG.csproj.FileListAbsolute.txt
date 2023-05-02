@@ -55,3 +55,7 @@ C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\Sprites\Wartortle.xnb
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\Sprites\Water.xnb
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\Sprites\Zorua.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\board.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\pokemon_back_side.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\window_background.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\PokemonTCG\PokemonTCG\bin\Debug\net6.0\Content\pokemon_sprite\pokemon_tcg_board.xnb

@@ -7,6 +7,7 @@ public class Game1 : Game
 
     // Game manager
     private GameLogic _game_logic;
+    private Decks _deck;
 
     public Game1()
     {
@@ -52,8 +53,8 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
-        // Globals.Update(gameTime);
-        //_game_logic.Update();
+        Globals.Update(gameTime);
+        _game_logic.update();
 
         base.Update(gameTime);
     }
@@ -64,6 +65,7 @@ public class Game1 : Game
 
         _spriteBatch.Begin();
         _game_logic.Draw();
+        //_deck.Draw();
         _spriteBatch.End();
 
         base.Draw(gameTime);
