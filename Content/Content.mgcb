@@ -13,6 +13,13 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Font/sprite_position_font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Font/sprite_position_font.spritefont
+
 #begin pokemon_sprite/board.png
 /importer:TextureImporter
 /processor:TextureProcessor

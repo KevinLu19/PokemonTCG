@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/Font/sprite_position_font.spritefont</File>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/board.png</File>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/pokemon_back_side.png</File>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/Sprites/Big_Malasada.png</File>
@@ -41,6 +42,7 @@
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/PokemonTCG/PokemonTCG/Content/pokemon_sprite/window_background.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

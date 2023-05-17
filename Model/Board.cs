@@ -9,6 +9,11 @@ public class Board : Sprite
         
     }
 
+    public void Update()
+    {
+
+    }
+
     public override void Draw()
     {
         Globals.spriteBatch.Draw(texture, position, Color.White);
